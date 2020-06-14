@@ -1,0 +1,57 @@
+/*It's recommended to start with these line permenantly*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+/*the copied lines from css tricks for perfect background image*/
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	/*font-size: 3rem;*/ /*from video*/
+	font-size: 42px; /*from inspection of the needed web page*/
+	color: #e2dbdb; /*this color can be copied already from 
+	any website, see video 7 in bootstrap section*/
+}
+
+.buffer {
+	height: 10rem; /*try rem values till reach the needed space*/
+}
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px; /*to make the line strong & bold*/
+	max-width: 65px; /*to make the line not the entire window*/
+}
+
+.btn {
+	font-weight: 700; /*to make it bold from 100 to 900*/
+	border-radius: 300px; /*to make the border more circular*/
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px; /*to make change in its width while 
+	hovering*/
+}
+
+/*to enlarge the button*/
+.btn-xl {
+	padding: 14px 28px; /*I get these pixels from inspection of 
+	the needed web page*/
+	/*or*/
+	/*padding: 1rem 2rem;*/ /*from videos*/ 
+}

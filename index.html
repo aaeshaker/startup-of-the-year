@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <!-- Required meta tags to make website responsive copied from bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- we'll use bootstrap grid to make <h1> & <hr> & <button> in one row, so we use container class and row class -->
+   <div class="container d-flex align-items-center h-100">
+   <!--  we use d-flex from bootstrap to enable the flex display features & h-100 means I need them @ center while height of display used is 100 -->
+
+    <div class="row">
+      <!-- this class used from bootstrap to center the text -->
+      <header class="text-center col-12">
+        <!-- we add col-12 for text, botton and hr to make sure they all in the same center  -->
+        <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+      </header>
+
+      <div class="buffer col-12">
+        <!-- we've created a buffer here to make space between text and button to reach the needed web page, and here we type col-12 to make sure that space spreads as they do -->
+      </div>
+
+      <section class="text-center col-12">
+
+        <hr><!-- horizontal line -->
+
+<!-- this link I've created google form on my gmail -->
+        <a href="https://forms.gle/1he4r1mdsnZ6MM587">
+          <button class="btn btn-primary btn-xl">Find out more
+          </button>
+        </a>
+      </section>
+    </div>
+    
+   </div>
+
+  </body>
+</html> 
